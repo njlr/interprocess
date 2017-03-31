@@ -1,0 +1,13 @@
+cxx_binary(
+  name = 'condition_test',
+  header_namespace = '',
+  headers = [
+    'condition_test_template.hpp',
+  ],
+  srcs = [
+    'condition_test.cpp',
+  ],
+  deps = [
+    '//:interprocess',
+  ],
+)

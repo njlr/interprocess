@@ -1,0 +1,7 @@
+{
+  "name": "interprocess",
+  "dependencies": {
+    "boost/config": "1.63.0",
+    "boost/date-time": "1.63.0"
+  }
+}
